@@ -1,0 +1,109 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="1280dp"
+    android:height="720dp"
+    android:viewportWidth="1280"
+    android:viewportHeight="720">
+
+    <!-- Background dark tech gradient -->
+    <path
+        android:pathData="M0,0h1280v720h-1280z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="1280"
+                android:endY="720"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF0F172A" />
+                <item android:offset="0.5" android:color="#FF0B1329" />
+                <item android:offset="1.0" android:color="#FF070C1B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing tech grid lines -->
+    <path
+        android:pathData="M20,20 h1240 v680 h-1240 z"
+        android:strokeColor="#1E3A8A"
+        android:strokeWidth="1.5" />
+
+    <path
+        android:pathData="M40,40 h1200 v640 h-1200 z"
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="0.8" />
+
+    <!-- Founder figure placeholder outline (Suit & Tie figure) -->
+    <!-- Head & Shoulders -->
+    <path
+        android:pathData="M160,200 C185,200 205,180 205,155 C205,130 185,110 160,110 C135,110 115,130 115,155 C115,180 135,200 160,200 Z"
+        android:fillColor="#FF38BDF8" />
+
+    <!-- Suit Torso & Arms -->
+    <path
+        android:pathData="M60,650 L60,320 C60,280 100,240 160,240 C220,240 260,280 260,320 L260,650 Z"
+        android:fillColor="#FF1E293B"
+        android:strokeColor="#FF38BDF8"
+        android:strokeWidth="2" />
+
+    <!-- Suit Lapels & Tie -->
+    <path
+        android:pathData="M140,240 L160,360 L180,240 L160,260 Z"
+        android:fillColor="#FF0F172A"
+        android:strokeColor="#FF60A5FA"
+        android:strokeWidth="1.5" />
+
+    <path
+        android:pathData="M156,260 L164,260 L162,380 L158,380 Z"
+        android:fillColor="#FF2563EB" />
+
+    <!-- Glowing Tablet Held by Founder -->
+    <path
+        android:pathData="M230,380 L440,330 L450,560 L240,610 Z"
+        android:fillColor="#2200D8FF"
+        android:strokeColor="#FF00E5FF"
+        android:strokeWidth="3" />
+
+    <!-- Tech Circuit Connectors -->
+    <path
+        android:pathData="M450,440 L520,440 L560,400 L640,400"
+        android:strokeColor="#FF38BDF8"
+        android:strokeWidth="2" />
+
+    <!-- Feature Badges -->
+    <!-- Scholarship Finder -->
+    <path
+        android:pathData="M520,180 h160 v45 h-160 z"
+        android:fillColor="#1F1E293B"
+        android:strokeColor="#FF60A5FA"
+        android:strokeWidth="1" />
+
+    <!-- Application Tracking -->
+    <path
+        android:pathData="M540,540 h170 v45 h-170 z"
+        android:fillColor="#1F1E293B"
+        android:strokeColor="#FF38BDF8"
+        android:strokeWidth="1" />
+
+    <!-- University Card 1: Oxford -->
+    <path
+        android:pathData="M660,320 h220 v260 h-220 z"
+        android:fillColor="#FF1E293B"
+        android:strokeColor="#FF3B82F6"
+        android:strokeWidth="2" />
+
+    <!-- University Card 2: MIT -->
+    <path
+        android:pathData="M920,320 h220 v260 h-220 z"
+        android:fillColor="#FF1E293B"
+        android:strokeColor="#FF3B82F6"
+        android:strokeWidth="2" />
+
+    <!-- Action Buttons at bottom -->
+    <path
+        android:pathData="M970,610 h170 v50 h-170 z"
+        android:fillColor="#FF0284C7"
+        android:strokeColor="#FF38BDF8"
+        android:strokeWidth="2" />
+
+</vector>

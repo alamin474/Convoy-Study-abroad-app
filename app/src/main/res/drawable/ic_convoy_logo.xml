@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="240dp"
+    android:height="60dp"
+    android:viewportWidth="240"
+    android:viewportHeight="60">
+
+    <!-- Symbol Group on Left -->
+    <group android:translateX="4" android:translateY="2" android:scaleX="0.58" android:scaleY="0.58">
+        <!-- Global Orbital Globe Ring -->
+        <path
+            android:pathData="M 68,22 C 80,30 84,48 78,62 C 72,76 54,84 38,80 C 22,76 12,60 16,44 C 18,36 24,28 32,24 C 35,22.5 38,25 36.5,28 C 35,31 30,36 28,42 C 24,54 32,68 45,70 C 58,72 70,62 72,48 C 73,40 69,32 62,27 C 59.5,25.2 61.5,21.5 68,22 Z"
+            android:fillColor="#00E5FF" />
+
+        <!-- Inner Ascending Arrow -->
+        <path
+            android:pathData="M 48,16 L 66,42 L 52,38 L 48,56 L 40,56 L 44,38 L 30,42 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="48"
+                    android:startY="16"
+                    android:endX="48"
+                    android:endY="56"
+                    android:type="linear">
+                    <item android:color="#38BDF8" android:offset="0.0" />
+                    <item android:color="#2563EB" android:offset="1.0" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Spark Node -->
+        <path
+            android:pathData="M 48,16 A 5,5 0 1,1 47.9,16 Z"
+            android:fillColor="#00E5FF" />
+    </group>
+
+    <!-- Wordmark "convoy" -->
+    <!-- 'c' -->
+    <path
+        android:pathData="M 72,25 C 67,25 63,29 63,35 C 63,41 67,45 72,45 C 75.5,45 78,43.5 79.5,41.5 L 77,39.5 C 76,41 74.2,42 72,42 C 69,42 66.2,39.2 66.2,35 C 66.2,30.8 69,28 72,28 C 74.2,28 76,29 77,30.5 L 79.5,28.5 C 78,26.5 75.5,25 72,25 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- 'o' -->
+    <path
+        android:pathData="M 88,25 C 82.5,25 78,29.5 78,35 C 78,40.5 82.5,45 88,45 C 93.5,45 98,40.5 98,35 C 98,29.5 93.5,25 88,25 Z M 88,28 C 91.8,28 94.8,31 94.8,35 C 94.8,39 91.8,42 88,42 C 84.2,42 81.2,39 81.2,35 C 81.2,31 84.2,28 88,28 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- 'n' -->
+    <path
+        android:pathData="M 101,26 L 101,44.5 L 104.2,44.5 L 104.2,34 C 104.2,30.5 106.5,28.2 110,28.2 C 113,28.2 114.5,30 114.5,33.5 L 114.5,44.5 L 117.7,44.5 L 117.7,32.8 C 117.7,28 115,25 109.5,25 C 106.8,25 105,26.2 104,28 L 104,26 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- 'v' -->
+    <path
+        android:pathData="M 120,26 L 125.5,44.5 L 128.8,44.5 L 134.3,26 L 130.8,26 L 127.2,39 L 123.5,26 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- 'o' -->
+    <path
+        android:pathData="M 142.5,25 C 137,25 132.5,29.5 132.5,35 C 132.5,40.5 137,45 142.5,45 C 148,45 152.5,40.5 152.5,35 C 152.5,29.5 148,25 142.5,25 Z M 142.5,28 C 146.3,28 149.3,31 149.3,35 C 149.3,39 146.3,42 142.5,42 C 138.7,42 135.7,39 135.7,35 C 135.7,31 138.7,28 142.5,28 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- 'y' -->
+    <path
+        android:pathData="M 155,26 L 160.2,38 L 165.5,26 L 169,26 L 161.8,42 L 161.8,50 L 158.5,50 L 158.5,42 L 151.5,26 Z"
+        android:fillColor="#00E5FF" />
+
+    <!-- Subtitle Pill Badge "STUDY ABROAD" -->
+    <path
+        android:pathData="M 175,28 L 232,28 C 235,28 237,30 237,33 L 237,37 C 237,40 235,42 232,42 L 175,42 C 172,42 170,40 170,37 L 170,33 C 170,30 172,28 175,28 Z"
+        android:fillColor="#2563EB" />
+
+    <!-- Cyan Accent Dot on Badge -->
+    <path
+        android:pathData="M 174,35 A 2,2 0 1,1 173.9,35 Z"
+        android:fillColor="#00E5FF" />
+</vector>

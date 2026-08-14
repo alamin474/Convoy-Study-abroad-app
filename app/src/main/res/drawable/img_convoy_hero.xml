@@ -1,0 +1,207 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="1280dp"
+    android:height="720dp"
+    android:viewportWidth="1280"
+    android:viewportHeight="720">
+
+    <!-- 1. Dark Navy Blue Futuristic Tech Background -->
+    <path android:pathData="M0,0h1280v720h-1280z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="1280"
+                android:endY="720"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF0B132B" />
+                <item android:offset="0.4" android:color="#FF0F172A" />
+                <item android:offset="0.8" android:color="#FF1E293B" />
+                <item android:offset="1.0" android:color="#FF070E20" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 2. Glowing Global Grid & Constellation Nodes -->
+    <path
+        android:pathData="M0,180 H1280 M0,360 H1280 M0,540 H1280 M320,0 V720 M640,0 V720 M960,0 V720"
+        android:strokeColor="#1E3A8A"
+        android:strokeWidth="1" />
+
+    <!-- Circular World Network Halo behind Founder -->
+    <path
+        android:pathData="M240,360 A180,180 0 1,0 600,360 A180,180 0 1,0 240,360 Z"
+        android:strokeColor="#2563EB"
+        android:strokeWidth="2" />
+    <path
+        android:pathData="M200,360 A220,220 0 1,0 640,360 A220,220 0 1,0 200,360 Z"
+        android:strokeColor="#0284C7"
+        android:strokeWidth="1.5" />
+
+    <!-- 3. Convoy Founder - Dark Navy Blue Suit & Professional Pose -->
+    <!-- Head & Hair Silhouette -->
+    <path
+        android:pathData="M395,120 C425,120 445,145 445,180 C445,215 425,235 395,235 C365,235 345,215 345,180 C345,145 365,120 395,120 Z"
+        android:fillColor="#FF38BDF8" />
+    <path
+        android:pathData="M370,120 C380,105 410,105 420,120 C430,110 440,115 445,130 C430,130 420,125 410,135 C395,130 380,130 370,120 Z"
+        android:fillColor="#FF0F172A" />
+
+    <!-- Neck & Shirt Collar -->
+    <path
+        android:pathData="M380,225 L410,225 L415,260 L375,260 Z"
+        android:fillColor="#FFF8FAFC" />
+
+    <!-- Crisp Dark Royal Blue / Red Tie -->
+    <path
+        android:pathData="M390,250 L400,250 L403,340 L395,350 L387,340 Z"
+        android:fillColor="#FFDC2626" />
+
+    <!-- Tailored Dark Navy Blue Suit Jacket & Lapels -->
+    <path
+        android:pathData="M270,720 L270,330 C270,285 320,250 395,250 C470,250 520,285 520,330 L520,720 Z"
+        android:fillColor="#FF0F2942" />
+
+    <!-- Suit Lapels Overlay (Darker Navy Accent) -->
+    <path
+        android:pathData="M330,265 L375,370 L395,440 L415,370 L460,265 L430,260 L395,350 L360,260 Z"
+        android:fillColor="#FF0B1D30"
+        android:strokeColor="#FF2563EB"
+        android:strokeWidth="1.5" />
+
+    <!-- White Pocket Square Accent -->
+    <path
+        android:pathData="M330,340 L350,335 L345,345 Z"
+        android:fillColor="#FFF8FAFC" />
+
+    <!-- Arms Holding Futuristic Tablet -->
+    <path
+        android:pathData="M290,440 C290,440 340,470 380,480 C420,490 480,460 510,430 L530,520 L310,560 Z"
+        android:fillColor="#FF091828" />
+
+    <!-- Hands Holding Tablet -->
+    <path
+        android:pathData="M360,470 C370,460 385,460 390,475 Z"
+        android:fillColor="#FF38BDF8" />
+    <path
+        android:pathData="M590,430 C600,420 615,420 620,435 Z"
+        android:fillColor="#FF38BDF8" />
+
+    <!-- 4. Futuristic Glowing Glass Tablet Held by Founder -->
+    <!-- Tablet Glass Body -->
+    <path
+        android:pathData="M375,370 L650,310 C660,308 670,315 672,325 L710,540 C712,550 705,560 695,562 L420,620 C410,622 400,615 398,605 L360,390 C358,380 365,372 375,370 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="370"
+                android:startY="310"
+                android:endX="710"
+                android:endY="620"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#CC0284C7" />
+                <item android:offset="0.5" android:color="#DD0369A1" />
+                <item android:offset="1.0" android:color="#EE0F172A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Neon Cyan Tablet Border Frame -->
+    <path
+        android:pathData="M375,370 L650,310 C660,308 670,315 672,325 L710,540 C712,550 705,560 695,562 L420,620 C410,622 400,615 398,605 L360,390 C358,380 365,372 375,370 Z"
+        android:strokeColor="#FF00E5FF"
+        android:strokeWidth="4" />
+
+    <!-- Glowing Tablet Screen Elements -->
+    <!-- Header Banner on Tablet Screen -->
+    <path
+        android:pathData="M390,380 L645,325 L650,360 L395,415 Z"
+        android:fillColor="#FF0284C7" />
+
+    <!-- Tablet UI Display Cards (Simulating "GLOBAL OPPORTUNITIES" Dashboard) -->
+    <path
+        android:pathData="M405,430 L510,408 L515,480 L410,502 Z"
+        android:fillColor="#3300E5FF"
+        android:strokeColor="#FF38BDF8"
+        android:strokeWidth="1.5" />
+
+    <path
+        android:pathData="M525,405 L630,383 L635,455 L530,477 Z"
+        android:fillColor="#3300E5FF"
+        android:strokeColor="#FF38BDF8"
+        android:strokeWidth="1.5" />
+
+    <!-- Holographic Light Rays & Connectivity Beam emanating from Tablet -->
+    <path
+        android:pathData="M650,310 L780,200 L1180,180 L710,540 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="650"
+                android:startY="310"
+                android:endX="1180"
+                android:endY="180"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4000E5FF" />
+                <item android:offset="0.6" android:color="#150284C7" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- 5. Right Side Holographic Feature Cards -->
+    <!-- Card 1: Global Opportunities / University Network -->
+    <path
+        android:pathData="M780,150 h380 v120 h-380 z"
+        android:fillColor="#D90F172A"
+        android:strokeColor="#FF00E5FF"
+        android:strokeWidth="2.5" />
+    <path
+        android:pathData="M795,165 h120 v30 h-120 z"
+        android:fillColor="#FF0284C7" />
+    <path
+        android:pathData="M795,210 h320 v12 h-320 z"
+        android:fillColor="#FF38BDF8" />
+    <path
+        android:pathData="M795,232 h240 v10 h-240 z"
+        android:fillColor="#FF94A3B8" />
+
+    <!-- Card 2: Full Scholarships & Admissions -->
+    <path
+        android:pathData="M740,320 h420 v140 h-420 z"
+        android:fillColor="#D90F172A"
+        android:strokeColor="#FF3B82F6"
+        android:strokeWidth="2" />
+    <path
+        android:pathData="M760,340 h150 v32 h-150 z"
+        android:fillColor="#FF2563EB" />
+    <path
+        android:pathData="M760,388 h360 v12 h-360 z"
+        android:fillColor="#FF60A5FA" />
+    <path
+        android:pathData="M760,410 h280 v10 h-280 z"
+        android:fillColor="#FF94A3B8" />
+
+    <!-- Card 3: 100% Visa & Career Support -->
+    <path
+        android:pathData="M780,500 h380 v120 h-380 z"
+        android:fillColor="#D90F172A"
+        android:strokeColor="#FF10B981"
+        android:strokeWidth="2" />
+    <path
+        android:pathData="M800,520 h140 v28 h-140 z"
+        android:fillColor="#FF059669" />
+    <path
+        android:pathData="M800,562 h320 v12 h-320 z"
+        android:fillColor="#FF34D399" />
+
+    <!-- Decorative Cyan Glow Dots -->
+    <path
+        android:pathData="M1150,130 A8,8 0 1,0 1166,130 A8,8 0 1,0 1150,130 Z"
+        android:fillColor="#FF00E5FF" />
+    <path
+        android:pathData="M730,300 A6,6 0 1,0 742,300 A6,6 0 1,0 730,300 Z"
+        android:fillColor="#FF38BDF8" />
+    <path
+        android:pathData="M1180,480 A10,10 0 1,0 1200,480 A10,10 0 1,0 1180,480 Z"
+        android:fillColor="#FF34D399" />
+
+</vector>

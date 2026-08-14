@@ -1,0 +1,6 @@
+{
+  "name": "Convoy: Study abroad",
+  "description": "Global study-abroad platform to discover universities, scholarships, study destinations, and manage applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
